@@ -1,0 +1,24 @@
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 681px;
+$Color: lightblue;
+@mixin important-text {
+  
+  font-weight: bold;
+ 
+}
+body {
+
+    @include important-text;
+    text-align: center;
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+    background-color: $Color;
+  }
+.hello{
+   h1{
+    color:black;
+   }
+}
